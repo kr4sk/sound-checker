@@ -1,6 +1,7 @@
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
 if game:GetService("SoundService").RespectFilteringEnabled == true then
-	print("Sound Can't Be Played!")
+	l:Notify("Sound","Sound Can't Be Played!",10)
 	else
-	print("Sound Can Be Played!")
+	l:Notify("Sound","Sound Can Be Played!",10)
 	end
 -- really ez to make
